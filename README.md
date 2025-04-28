@@ -1,2 +1,2 @@
-# TP2 : Gestion de projets
+TP2 - FangDaniel - Gestion des branches
 Ceci est une description

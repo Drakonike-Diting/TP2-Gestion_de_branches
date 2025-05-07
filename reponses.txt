@@ -1,0 +1,63 @@
+
+Question 1 :
+
+La commande "git status" affiche "Sur la branche master" et "Aucun commit" .
+
+Question 2 :
+
+git switch -c develop
+echo "# TP2 : Gestion de projets" > README.md
+git status
+git add README.md
+git commit -m "Ajout d'un fichier README"
+
+Question 3 :
+
+echo "Ceci est une description" >> README.md
+git status
+git add README.md
+git commit -m "Ajout d'une deuxieme ligne"
+
+Question 4 :
+
+git switch develop
+git branch
+git merge feature1
+
+Question 5 :
+
+git switch -c feature2
+echo "TP2 - FangDaniel - Gestion des branches" > README.md
+echo "Ceci est une description" >> README.md
+git add README.md
+git commit -m "Modification du titre du fichier README"
+
+Question 6 :
+
+git switch -c feature3
+git add README.md
+git commit -m "Modification du titre du fichier README en Gestion des branches et fusions"
+
+Question 7 :
+
+git merge feature2
+Mise à jour 999ab75..747b61a
+Fast-forward
+README.md | 2 +-
+1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+git merge feature3
+Fusion automatique de README.md
+CONFLIT (contenu) : Conflit de fusion dans README.md
+La fusion automatique a échoué ; réglez les conflits et validez le résultat.
+
+Question 8 :
+
+TP2-Gestion_de_branches.git
+(base) dfang@b110-15:~/prive/S2/GPO/TP2-FANG-DANIEL$ git remote add origin https://github.com/Drakonike-Diting/TP2-Gestion_de_branches.git
+git branch -M main
+git push -u origin main
+
+
+
